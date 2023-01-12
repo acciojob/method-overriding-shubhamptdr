@@ -1,8 +1,11 @@
 package com.driver;
 
 public class Main {
-    B b = new B();
-    System.out.println(b.meth());
+    public static void main(String[] args) {
+        A b = new B();
+        System.out.println(b.meth());
+
+    }
   
 }
 class A {
